@@ -94,18 +94,18 @@ h1{
   width: 50%;
   float: left;
   background: #283644;
-  height: 100vh;
+  height: 140vh;
 }
 
 .white{
   width: 50%;
   float: right;
   background: #4D727E;
-  height: 100vh;
+  height: 140vh;
 }
 
 .box{
-  height: 300px;
+  height: 100px;
   width: 500px;
   background: #069A8E;
   position:absolute;
