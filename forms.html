@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="fromcss.css">
+
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+	</head>
+
+	  <body >
+          <a href="WebDashboard.html" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-chevron-left"></span>Back
+        </a>
+          <div class="align">
+           <div class="grid">
+
+    <div id="login">
+
+      <h2><span class="fontawesome-lock"></span>FORM</h2>
+          <div>
+		  <fieldset>	<!-- <form method="GET"> -->
+               <form>
+                      <div class="form-group">
+                             <label for="firstname">First Name</label>
+                             <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter First Name">
+                           <!--   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                           </div>
+                      <div class="form-group">
+                             <label for="lastname">Last Name</label>
+                             <input type="text" class="form-control" id="lastname" placeholder=" Enter Last Name" >
+                      </div>
+                       <div class="form-group">
+                             <label for="email">Email</label>
+                             <input type="text" class="form-control" id="email" placeholder=" Enter Email Id" required="True"> <!-- Required and Minimum -->
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>        
+                      </div>
+                      <div class="form-group">
+                             <label for="password">Password</label>
+                             <input type="password" class="form-control" id="password" placeholder=" Enter Password" min="5" required="True"><!-- Required and Minimum -->
+                      </div>
+                      <div class="form-group">
+                             <label for="dob">Password</label>
+                             <input type="date" class="form-control" id="dob">
+                      </div>
+                      
+
+
+
+            
+              <label for="gender">Gender:</label> <br> 
+               <div class="form-check">
+                    <input class="form-check-input position-static" type="radio" name="gender" id="blankRadio1" value="Male" aria-label="...">Male
+               </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="radio" name="gender" id="blankRadio1" value="Male" aria-label="...">Female
+               </div>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="radio" name="gender" id="blankRadio1" value="Male" aria-label="...">Other
+               </div>
+               
+
+               <label for="gender">Pets:</label> <br> 
+               <div class="form-check">
+                 <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="dog" aria-label="...">
+               </div>
+               <div class="form-check">
+                 <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="cat" aria-label="...">
+               </div>
+               <label for="cars">Cars:</label> <br> 
+               	<div class="input-group">
+                      <select class="custom-select" id="inputGroupSelect04">
+                        <option selected>Choose...</option>
+                        <option value="Volvo">One</option>
+                        <option value="Tata">Two</option>
+                        <option value="Ford">Three</option>
+                      </select>
+                      <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">Choose</button><br>
+                      </div>
+                 </div>
+                 <br>
+                       <button type="submit" class="btn btn-primary">Submit</button> 
+                       <button type="reset" class="btn btn-primary">Reset</button>
+                    <br>
+            
+			</form>	
+
+</fieldset>
+              
+
+    </div> <!-- end login -->
+
+  </div>
+</div></div>
+</body>   
+               </div>	
+
+	</body>
+	

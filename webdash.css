@@ -1,0 +1,79 @@
+h1{
+  padding-top: 50px;
+  width: 80%;
+  margin:0;
+  font-family: montserrat;
+  font-size: 40px;
+  align-self: center;
+}
+
+}
+.intro{
+  margin: auto;
+}
+.black {
+  width: 50%;
+  float: left;
+  background: #283644;
+  height: 140vh;
+}
+
+.white{
+  width: 50%;
+  float: right;
+  background: #4D727E;
+  height: 140vh;
+}
+
+.box{
+  height: 100px;
+  width: 500px;
+  background: #069A8E;
+  position:absolute;
+  top:150px;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:20px;
+}
+
+.boxfather{
+  width:100%;
+  position:absolute;
+}
+
+/* Button Styleee
+* 
+*/
+button, button a, .button{
+  position:relative;
+  /* style|variant|weight|size/line-height|family */
+  font: 500 14px Arial;
+  letter-spacing: 0.5px;
+  color:#fff !important;
+  border: 0;
+  border-radius: 5px;
+  cursor:pointer;
+  text-decoration:none;
+}
+
+button, .button{
+  min-width: 100px;
+  margin: 10px 5px;
+  padding:8px 10px;
+  background-color: #0092ba;/* for non linear-gradient browsers */
+  background: linear-gradient(to bottom, #24A1C3 5%, #0092BB 100%) repeat scroll 0 0 #24A1C3;
+}
+
+.button{display:inline-block;min-width:80px;text-align:center;white-space:nowrap;}
+
+button:hover,a.button:hover{
+  background:linear-gradient(to bottom, #0092BB 5%, #24A1C3 100%) repeat scroll 0 0 #0092BB;
+}
+button:active{top:1px;}
+
+
+body{
+  background-color:#222; 
+}
+#buttonC{margin:20px auto;width:500px;}
